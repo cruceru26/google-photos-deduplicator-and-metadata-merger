@@ -173,8 +173,8 @@ def remove_duplicates(duplicates):
             logging.error(f"Failed to remove {file_path}: {e}")
 
 # Define directories
-albums_directory = "E:\\google photos\\Andreea's photos\\Albums"  # Directory containing your albums
-photos_directory = "E:\\google photos\\Andreea's photos\\GooglePhotos"  # Directory to clean up
+albums_directory = "E:\\takeout\\Takeout\\Albums"  # Directory containing your albums
+photos_directory = "E:\\takeout\\Takeout\\Photos"  # Directory to clean up
 
 # Find and remove duplicates
 logging.info("Starting duplicate detection...")

@@ -465,7 +465,7 @@ def merge_metadata(media_folder, processed_folder):
     logger.info("Metadata update and file move completed.")
 
 # Set the folder containing your media and JSON files
-media_folder = "E:\\google photos\\Andreea's photos\\Albums"
-processed_folder = "E:\\google photos\\Andreea's photos\\Albums_processed"
+media_folder = "E:\\takeout\\Takeout\\Albums"
+processed_folder = "E:\\takeout\\Takeout\\Albums_processed"
 
 merge_metadata(media_folder, processed_folder)
