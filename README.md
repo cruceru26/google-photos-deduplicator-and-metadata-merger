@@ -20,3 +20,5 @@ Use `count.py` -> to count all media from `Albums` directory and all media from 
 After removing of the duplicates copy all directories from `Photos` to `Albums` directory and create another directory `Albums_processed`.
 
 `merge_metadata.py` - will add the metadata from the json file to the media. It will also convert WMV, AVI, MPG, 3GP files to MP4 and .nef files to .jpg. This script will create a file named `metadata_update.log` with all the logs and there it can be seen if there was any error or warnings. After the script is done the directory `Albums_processed` will contain all media with the correct metadata. Manually check all directories from `Albums` directory to see if there is any media files left there (if is there it means it was not processed) ignoring the json files.
+
+At the end you can run `count.py` on `Albums_processed` directory to have a final count.

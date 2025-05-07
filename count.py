@@ -15,7 +15,7 @@ def count_files(directory):
 
 if __name__ == "__main__":
     # Specify the directory you want to count files in
-    target_directory = "E:\\takeout\\Takeout\\Albums\\"
+    target_directory = "E:\\takeout\\Takeout\\Albums_processed\\"
     target_directory1 = "E:\\takeout\\Takeout\\Photos\\"
 
     # Call the function to count files
